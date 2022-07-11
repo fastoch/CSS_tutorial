@@ -1,7 +1,13 @@
+/*Universal Selector - shouldn't be used unless for a CSS reset*/
+* {
+    font-family: monospace;
+}
+
 body {
     font-size: 22px;
 }
 
+/*select both h1 and h2 elements*/
 h1,
 h2 {
     color: blue;
@@ -9,6 +15,18 @@ h2 {
 
 p {
     color: purple;
+}
+
+/*look for a span element inside a paragraph element*/
+p span {
+    text-transform: uppercase;
+    background-color: black;
+}
+
+/*we'd better use a class to do the same thing*/
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
 }
 
 .gray {
