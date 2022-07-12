@@ -15,6 +15,11 @@ body {
     color: #112A46;
 }
 
+h1 {
+    border: 2px dashed gold;
+    width: 50%;
+}
+
 p {
     color: #112A46;
 }
