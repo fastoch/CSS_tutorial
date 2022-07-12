@@ -16,8 +16,13 @@ body {
 }
 
 h1 {
-    border: 2px dashed gold;
+    border: 2px dashed papayawhip;
     width: 50%;
+    font-size: 3rem;
+    /* rem is relative to the root element. 3rem = 48px */
+    padding: 0.5em;
+    /* em is relative to the parent element. Here, 0.5em = 24px */
+    /* https://blog.lesieur.name/pourquoi-j-utilise-l-unite-rem-et-non-l-unite-pixel */
 }
 
 p {
