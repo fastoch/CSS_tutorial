@@ -1,6 +1,8 @@
-/*Universal Selector - shouldn't be used unless for a CSS reset
+/* Universal Selector - shouldn't be used unless for a CSS reset
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }*/
 
 /*
@@ -10,7 +12,6 @@ html {
 }*/
 
 body {
-    margin: 5;
     background: #ACC8E5;
     color: #112A46;
 }
@@ -18,16 +19,16 @@ body {
 h1 {
     border: 2px dashed papayawhip;
     width: 50%;
-    font-size: 3rem;
-    /* rem is relative to the root element. 3rem = 48px */
+    font-size: 2rem;
+    /* rem is relative to the root element. 2rem = 32px */
     padding: 0.5em;
-    /* em is relative to the parent element. Here, 0.5em = 24px */
+    /* em is relative to the parent element. Here, 0.5em = 16px */
     /* https://blog.lesieur.name/pourquoi-j-utilise-l-unite-rem-et-non-l-unite-pixel */
 }
 
 p {
     color: #112A46;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 55%;
     margin: 2px;
 }
