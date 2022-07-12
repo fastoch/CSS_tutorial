@@ -11,12 +11,12 @@ html {
 
 body {
     margin: 5;
-    background: papayawhip;
-    color: darkblue;
+    background: #ACC8E5;
+    color: #112A46;
 }
 
 p {
-    color: rgb(138, 43, 226);
+    color: #112A46;
 }
 
 /*select both h1 and h2 elements
@@ -34,11 +34,11 @@ p span {
 /*we'd better use a class to do the same thing*/
 .highlight {
     text-transform: uppercase;
-    background-color: gold;
+    background-color: #edb855;
 }
 
 .gray {
-    color: rgba(138, 43, 226, 0.8);
+    color: #112A46;
     /*last element is alpha and is between 0 and 1*/
 }
 
