@@ -15,6 +15,10 @@ body {
     color: darkblue;
 }
 
+p {
+    color: rgb(138, 43, 226);
+}
+
 /*select both h1 and h2 elements
 h1,
 h2 {
@@ -34,7 +38,8 @@ p span {
 }
 
 .gray {
-    color: gray;
+    color: rgba(138, 43, 226, 0.8);
+    /*last element is alpha and is between 0 and 1*/
 }
 
 #second {
