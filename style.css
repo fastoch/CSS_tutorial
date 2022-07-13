@@ -21,6 +21,9 @@ body {
 p {
     text-decoration: underline;
     /* other values for text-decoration: overline, line-through */
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 1em;
 }
 
 /* input,
