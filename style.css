@@ -17,10 +17,12 @@ body {
 }
 
 .container {
-    border: 2px dashed papayawhip;
+    border: 5px dashed papayawhip;
     font-size: 1.5rem;
     padding: 1.5em;
     margin: 1.5em;
+    outline: 5px solid greenyellow;
+    outline-offset: 5px;
     /* margin-top: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 1.5em;
