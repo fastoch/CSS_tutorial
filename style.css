@@ -14,6 +14,14 @@ html {
 body {
     background: #ACC8E5;
     color: #112A46;
+    padding: 10%;
+    font-size: 2rem;
+}
+
+input,
+label,
+button {
+    font: inherit;
 }
 
 .container {
