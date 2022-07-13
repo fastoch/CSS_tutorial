@@ -35,7 +35,7 @@ body {
     width: 100px;
     height: 100px;
     border: 2px solid black;
-    border-radius: 50px;
+    border-radius: 50%;
     outline: 2px solid red;
     outline-offset: 0.25rem;
 }
