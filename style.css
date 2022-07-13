@@ -18,11 +18,16 @@ body {
     font-size: 2rem;
 }
 
-input,
+p {
+    text-decoration: underline;
+    /* other values for text-decoration: overline, line-through */
+}
+
+/* input,
 label,
 button {
     font: inherit;
-}
+} */
 
 .container {
     border: 5px dashed papayawhip;
