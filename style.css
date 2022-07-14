@@ -29,6 +29,14 @@ p {
     word-spacing: 0.2em;
 }
 
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gold;
+}
+
 /* input,
 label,
 button {
