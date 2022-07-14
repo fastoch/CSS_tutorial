@@ -37,6 +37,11 @@ a:hover {
     color: gold;
 }
 
+.links {
+    text-decoration: none;
+    word-spacing: normal;
+}
+
 /* input,
 label,
 button {
