@@ -22,10 +22,11 @@ p {
     text-decoration: underline;
     /* popular values for text-decoration property: overline, line-through */
     text-transform: capitalize;
-    text-align: justify;
+    text-align: left;
     text-indent: 1em;
     line-height: 1.6;
     letter-spacing: 4px;
+    word-spacing: 0.5em;
 }
 
 /* input,
