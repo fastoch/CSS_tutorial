@@ -20,10 +20,12 @@ body {
 
 p {
     text-decoration: underline;
-    /* other values for text-decoration: overline, line-through */
+    /* popular values for text-decoration property: overline, line-through */
     text-transform: capitalize;
     text-align: justify;
     text-indent: 1em;
+    line-height: 1.6;
+    letter-spacing: 4px;
 }
 
 /* input,
@@ -71,6 +73,12 @@ p span {
 /*we'd better use a class to do the same thing*/
 .highlight {
     text-transform: uppercase;
+    background-color: #edb855;
+}
+
+.crossedout {
+    text-transform: uppercase;
+    text-decoration: line-through;
     background-color: #edb855;
 }
 
