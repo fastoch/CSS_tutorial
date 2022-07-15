@@ -116,3 +116,13 @@ p span {
 #second {
     font-style: italic;
 }
+
+ol {
+    list-style-type: lower-alpha;
+    /* ordered list with a, b, c instead of 1, 2, 3 */
+}
+
+ul {
+    list-style-type: circle;
+    /* empty circles instead of default plain discs */
+}
