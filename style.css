@@ -37,8 +37,10 @@ a:visited {
     color: white;
 }
 
-a:hover {
-    color: gold;
+a:hover,
+a:focus {
+    color: darkmagenta;
+    opacity: 0.8;
 }
 
 /* :active changes the link color when you click on it */
