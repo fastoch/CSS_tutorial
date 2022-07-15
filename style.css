@@ -122,6 +122,14 @@ ol {
     /* ordered list with a, b, c instead of 1, 2, 3 */
 }
 
+.reverse {
+    list-style-type: normal;
+}
+
+.roman {
+    list-style-type: upper-roman;
+}
+
 ul {
     list-style-type: circle;
     /* empty circles instead of default plain discs */
