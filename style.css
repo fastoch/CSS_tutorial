@@ -29,12 +29,22 @@ p {
     word-spacing: 0.2em;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:visited {
     color: white;
 }
 
 a:hover {
     color: gold;
+}
+
+/* :active changes the link color when you click on it */
+/* This :active pseudo-class must be put under the :hover pseudo-class */
+a:active {
+    color: red;
 }
 
 .links {
