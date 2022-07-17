@@ -142,3 +142,16 @@ ul {
     color: darkblue;
     line-height: 1.6;
 }
+
+ul li {
+    color: red;
+}
+
+ul li:nth-child(3) {
+    color: darkgreen;
+}
+
+::marker {
+    color: white;
+    font-size: 1.6em;
+}
