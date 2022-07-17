@@ -13,9 +13,14 @@ html {
 
 body {
     background: #ACC8E5;
-    color: #112A46;
-    padding: 10%;
+    color: hsl(212, 61%, 17%);
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 2rem;
+}
+
+h1 {
+    margin: 5%;
 }
 
 p {
@@ -61,11 +66,9 @@ button {
 } */
 
 .container {
-    border: 5px dashed papayawhip;
     font-size: 1.5rem;
-    padding: 1.5em;
     margin: 1.5em;
-    outline: 5px solid greenyellow;
+    padding: 0 10% 0 10%;
     outline-offset: 5px;
     /* margin-top: 1.5em;
     margin-right: 1.5em;
@@ -151,7 +154,8 @@ ul li:nth-child(3) {
     color: darkgreen;
 }
 
-::marker {
+ul ::marker {
     color: white;
     font-size: 1.6em;
+    content: "only 5€ --> ";
 }
