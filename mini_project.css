@@ -17,7 +17,7 @@ body {
 nav {
     border: 2px solid #333;
     border-radius: 2rem;
-    /* margin: 0 for the top, auto for left and right, and 1rem for the bottom */
+    /* margin: 0 for the top, auto for left & right (center the nav element), and 1rem for the bottom */
     margin: 0 auto 1rem;
     max-width: 600px;
     font-size: 3rem;
@@ -27,5 +27,10 @@ nav {
 h2 {
     padding: 1rem;
     background-color: gold;
+    /* border-radius: to round the upper corners of the h2 element */
     border-radius: 2rem 2rem 0 0;
+}
+
+ul {
+    list-style-type: none;
 }
