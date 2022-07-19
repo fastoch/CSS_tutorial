@@ -18,3 +18,28 @@ to apply properties like margin, padding or height */
     color: whitesmoke;
     padding: 4rem;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: black;
+}
+
+li {
+    /* inline-block will display list items horizontally */
+    display: inline-block;
+    /* margin-inline applies to the left and right sides of the elements */
+    margin-inline: 0.5rem;
+}
+
+/* only applies to the anchor tags inside list items */
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: underline;
+}
