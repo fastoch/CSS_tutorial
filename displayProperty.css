@@ -10,8 +10,8 @@ p {
     background-color: lightgray;
 }
 
-/* span is an inline element, we need to make it a inline-block element if we want
-to apply a padding without overlapsing the other elements */
+/* span is an inline-level element, we need to use display: inline-block if we want
+to apply properties like margin, padding or height */
 .opposite {
     display: inline-block;
     background-color: #333;
