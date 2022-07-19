@@ -17,4 +17,15 @@ body {
 
 .left {
     float: left;
+    margin-right: 1rem;
+
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
 }
